@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerry Yang — Data & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Grain overlay -->
+  <div class="grain"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">JY</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text" aria-hidden="true">YANG</div>
+    <div class="hero-avatar reveal">
+      <img src="avatar.jpeg" alt="Jerry Yang at Oxford" />
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal reveal-delay-1">Jerry Yang</h1>
+      <h2 class="hero-title reveal reveal-delay-2">Data Analytics &middot; AI Engineering &middot; Cloud Automation</h2>
+      <p class="hero-sub reveal reveal-delay-3">
+        Oxford &amp; Melbourne-trained data scientist building intelligent systems<br>
+        that turn complexity into clarity.
+      </p>
+      <div class="hero-cta reveal reveal-delay-4">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-stats reveal reveal-delay-4">
+        <div class="stat">
+          <span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Projects Shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Industries</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="3">0</span>
+          <span class="stat-label">Degrees</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator reveal reveal-delay-4">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading reveal">Building at the intersection of<br><em>data, AI, and impact.</em></h2>
+          <p class="reveal">
+            I'm a data analytics and AI professional with hands-on experience building analytics pipelines,
+            machine-learning and NLP models, and deploying AI workflows on cloud platforms. My work spans
+            consulting, transport, finance, health, and real estate — always focused on translating data
+            into operational improvements.
+          </p>
+          <p class="reveal">
+            With an MSc from <strong>Oxford</strong> (Cohort Dux) and a Master of Business Analytics from
+            <strong>Melbourne Business School</strong> (Ranked 2nd), I bring rigorous quantitative training
+            to every project. CFA Level I holder. Bilingual Chinese-English.
+          </p>
+        </div>
+        <div class="about-education reveal">
+          <div class="edu-card">
+            <div class="edu-badge">DUX</div>
+            <h3>University of Oxford</h3>
+            <p class="edu-degree">MSc Modelling for Global Health</p>
+            <p class="edu-detail">Data Science &middot; WAM 81.2% &middot; 2024–2025</p>
+          </div>
+          <div class="edu-card">
+            <div class="edu-badge">2nd</div>
+            <h3>Melbourne Business School</h3>
+            <p class="edu-degree">Master of Business Analytics</p>
+            <p class="edu-detail">Data Science &middot; WAM 82% &middot; 2023</p>
+          </div>
+          <div class="edu-card">
+            <h3>University of Melbourne</h3>
+            <p class="edu-degree">Bachelor of Commerce</p>
+            <p class="edu-detail">Actuarial Studies &middot; WAM 78.3% &middot; 2020–2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-label reveal">02 / Experience</div>
+      <h2 class="section-heading reveal">Where I've <em>made impact.</em></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Jun–Sep 2025</div>
+          <div class="timeline-content">
+            <h3>Data Analyst <span class="timeline-type">Contract</span></h3>
+            <h4>Genex Consulting &middot; Melbourne</h4>
+            <ul>
+              <li>Optimised SQL queries reducing query time ~40%, stabilising Power BI refreshes for transport analytics</li>
+              <li>Built Python + SQL pipelines aggregating congestion metrics across 100K+ daily records</li>
+              <li>Developed interactive Power BI dashboards with DAX and drill-downs</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Mar–Aug 2025</div>
+          <div class="timeline-content">
+            <h3>Research Assistant <span class="timeline-type">Oxford</span></h3>
+            <h4>MORU — Mahidol Oxford Tropical Medicine Research Unit</h4>
+            <ul>
+              <li>Designed AI chatbot architecture for AMR data collection (LINE UI + REDCap + Python backend)</li>
+              <li>Applied NLP and image recognition achieving 99% data accuracy, reducing manual cleaning by 80%</li>
+              <li>First author on upcoming JMIR research publication</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Oct 2021–Sep 2024</div>
+          <div class="timeline-content">
+            <h3>Data Analyst <span class="timeline-type">Part-time</span></h3>
+            <h4>AIKE International &middot; Melbourne</h4>
+            <ul>
+              <li>Analytics for residential projects across a ~$50M portfolio, achieving 250% five-year ROI</li>
+              <li>NLP sentiment analysis on 10,000+ online property comments for market intelligence</li>
+              <li>Automated data extraction and reporting, reducing manual prep time by ~70%</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Sep 2023–Jan 2024</div>
+          <div class="timeline-content">
+            <h3>Business Analyst Fellow</h3>
+            <h4>Centre for Business Analytics, Melbourne Business School</h4>
+            <ul>
+              <li>Built ML models (logistic regression, XGBoost) evaluating ad regulation impact, R&sup2; up to 0.84</li>
+              <li>Designed A/B testing frameworks with automated pipelines for training data preparation</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Aug–Sep 2023</div>
+          <div class="timeline-content">
+            <h3>Data Analyst</h3>
+            <h4>Downer Analytics Lab &middot; Melbourne</h4>
+            <ul>
+              <li>Audited stock data across 24 asphalt plants using SQL and R, identifying ~AUD 200K annual savings</li>
+              <li>Developed automated Power BI dashboards and anomaly detection scripts</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Feb–Mar 2023</div>
+          <div class="timeline-content">
+            <h3>Quantitative Analyst Intern <span class="timeline-type">Remote</span></h3>
+            <h4>Goldman Sachs &middot; New York</h4>
+            <ul>
+              <li>Constructed pricing models for European options using the Black-Scholes formula in C++</li>
+              <li>Computed and summarised pricing results with OOP design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label reveal">03 / Projects</div>
+      <h2 class="section-heading reveal">Selected <em>works.</em></h2>
+      <div class="projects-grid">
+
+        <!-- Cozy Farm -->
+        <div class="project-card project-featured reveal">
+          <div class="project-badge">Featured</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Godot 4.6</span><span>GDScript</span><span>Firebase</span><span>iOS/Android</span>
+            </div>
+            <h3>Cozy Farm</h3>
+            <p>Production-grade mobile farm simulation with 42 scenes, 19 crop types, 15 animal species,
+               85+ collectible items, gacha system, 4-language localization, and full iOS/Android deployment.
+               Multi-agent development protocol with 8 specialized agents.</p>
+            <div class="project-metrics">
+              <span>42 Scenes</span><span>1200+ Sprites</span><span>75MB .pck</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AMR Chatbot -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span><span>NLP</span><span>REDCap</span><span>LINE API</span>
+            </div>
+            <h3>AMR Chatbot <a href="https://github.com/Angelov1314/AMRChatbot" target="_blank" class="project-link" aria-label="GitHub">&#8599;</a></h3>
+            <p>AI-powered chatbot for antimicrobial data collection at Oxford. LINE UI + REDCap + Python backend.
+               NLP and image recognition for entity extraction. First-author JMIR publication.</p>
+            <div class="project-metrics">
+              <span>99% Accuracy</span><span>80% Less Manual Work</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data & Cloud Workflow -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>AWS</span><span>Lambda</span><span>Bedrock</span><span>n8n</span><span>Docker</span>
+            </div>
+            <h3>Cloud Workflow Automation</h3>
+            <p>AWS-based AI automation pipelines (SES, S3, Lambda, Bedrock) for lead scoring,
+               personalized email generation, and client intent classification. n8n orchestration with
+               prompt engineering and production logging.</p>
+            <div class="project-metrics">
+              <span>60% Faster Triage</span><span>End-to-End AWS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Particle -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Three.js</span><span>React</span><span>MediaPipe</span><span>WebGL</span>
+            </div>
+            <h3>FX3D — 3D Particle System <a href="https://github.com/Angelov1314/3D-Particle-simulator" target="_blank" class="project-link" aria-label="GitHub">&#8599;</a></h3>
+            <p>Interactive 3D particle system with MediaPipe hand tracking. AI-generated formations
+               (jellyfish, nebula, dragon), custom shaders, Web Workers for 60fps physics.
+               <a href="https://angelov1314.github.io/3D-Particle-simulator/" target="_blank" class="live-link">Live Demo</a></p>
+          </div>
+        </div>
+
+        <!-- AIMSkit -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Next.js</span><span>React</span><span>Claude SDK</span><span>shadcn/ui</span>
+            </div>
+            <h3>AIMSkit — EU AI Act Compliance <a href="https://github.com/Angelov1314/Aimskit-compliance-check" target="_blank" class="project-link" aria-label="GitHub">&#8599;</a></h3>
+            <p>AI-powered compliance tool evaluating systems against EU AI Act. Risk classification,
+               ISO 42001 gap analysis, and PDF report generation. Claude AI for intelligent regulatory analysis.</p>
+          </div>
+        </div>
+
+        <!-- ShaderForge -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>TypeScript</span><span>Monaco</span><span>WebGL</span><span>Claude SDK</span>
+            </div>
+            <h3>ShaderForge — AI Shader IDE <a href="https://github.com/Angelov1314/Shader-forge" target="_blank" class="project-link" aria-label="GitHub">&#8599;</a></h3>
+            <p>Local Shadertoy-compatible GLSL IDE with AI-powered shader generation from natural language.
+               Monaco editor, real-time WebGL preview, template library system.</p>
+          </div>
+        </div>
+
+        <!-- Quant Trading -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span><span>FastAPI</span><span>Pandas</span><span>NumPy</span>
+            </div>
+            <h3>Quant-Trading Backtest <a href="https://github.com/Angelov1314/Quant-trading-backtest" target="_blank" class="project-link" aria-label="GitHub">&#8599;</a></h3>
+            <p>Quantitative backtesting platform with 5 strategies (MA Crossover, RSI, Bollinger, Momentum, MACD).
+               Sharpe/Sortino ratios, max drawdown, automated PDF report generation.</p>
+          </div>
+        </div>
+
+        <!-- Oxford 180DC -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span><span>GIS</span><span>IoT</span><span>Predictive Models</span>
+            </div>
+            <h3>UrbanChain Energy &middot; 180DC Oxford</h3>
+            <p>Predictive models for household energy storage and consumption with GIS visualization.
+               Real-time IoT dashboards. Reduced energy oversupply ~20%.
+               <strong>Best Consultant Award.</strong></p>
+          </div>
+        </div>
+
+        <!-- Dev Router -->
+        <div class="project-card reveal">
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Dev Router <a href="https://github.com/Angelov1314/Dev-Router" target="_blank" class="project-link" aria-label="GitHub">&#8599;</a></h3>
+            <p>One-click local project launcher dashboard. Auto-scans project directories,
+               starts dev servers, and opens browser. Streamlines multi-project development workflow.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-github reveal">
+        <a href="https://github.com/Angelov1314" target="_blank" class="btn btn-ghost">
+          View All on GitHub &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">04 / Skills</div>
+      <h2 class="section-heading reveal">Technical <em>toolkit.</em></h2>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3>Programming & Data</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span><span>R</span><span>C++</span><span>TypeScript</span>
+            <span>GDScript</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
+            <span>TensorFlow</span><span>PyTorch</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Cloud & MLOps</h3>
+          <div class="skill-tags">
+            <span>AWS</span><span>Azure Databricks</span><span>Docker</span><span>n8n</span>
+            <span>Lambda</span><span>S3</span><span>Bedrock</span><span>SES</span>
+            <span>CI/CD</span><span>Git</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Analytics & ML</h3>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>NLP</span><span>Time Series</span>
+            <span>A/B Testing</span><span>Causal Inference</span><span>XGBoost</span>
+            <span>Feature Engineering</span><span>ETL</span><span>EDA</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Visualization & BI</h3>
+          <div class="skill-tags">
+            <span>Power BI</span><span>Tableau</span><span>Matplotlib</span><span>ggplot</span>
+            <span>Three.js</span><span>D3.js</span><span>Figma</span><span>WebGL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Frontend & Tools</h3>
+          <div class="skill-tags">
+            <span>Next.js</span><span>React</span><span>Tailwind CSS</span><span>Godot</span>
+            <span>Unreal Engine 5</span><span>shadcn/ui</span><span>Framer Motion</span>
+            <span>Vite</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Domain & Certs</h3>
+          <div class="skill-tags">
+            <span>CFA Level I</span><span>PTE 90/90</span><span>Bilingual EN/CN</span>
+            <span>Jira</span><span>Confluence</span><span>Agile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal">05 / Contact</div>
+      <h2 class="contact-heading reveal">Let's build<br><em>something great.</em></h2>
+      <div class="contact-links reveal">
+        <a href="mailto:jerry.yang.data@gmail.com" class="contact-item">
+          <span class="contact-icon">&#9993;</span>
+          <span>jerry.yang.data@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/jerry-yang-chunyu" target="_blank" class="contact-item">
+          <span class="contact-icon">in</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/Angelov1314" target="_blank" class="contact-item">
+          <span class="contact-icon">&lt;/&gt;</span>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Jerry Yang. Crafted with intention.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
