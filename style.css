@@ -398,50 +398,39 @@ img { max-width: 100%; display: block; }
   font-weight: 500;
 }
 
+.about-education {
+  position: relative;
+}
+
+.about-education::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 420px;
+  background: url('oxford-crest.png') center / contain no-repeat;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+  filter: brightness(3);
+}
+
 .edu-card {
   padding: 28px;
   border: 1px solid var(--border);
   border-radius: 4px;
   margin-bottom: 16px;
   position: relative;
-  transition: border-color 0.3s, background 0.3s;
-  background: var(--bg-elevated);
-  overflow: hidden;
-}
-
-.edu-card::before {
-  content: '';
-  position: absolute;
-  right: 12px;
-  bottom: -8px;
-  width: 100px;
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.08;
-  pointer-events: none;
-  z-index: 0;
-  filter: brightness(2);
-}
-
-.edu-oxford::before {
-  background-image: url('oxford-crest.png');
-}
-
-.edu-mbs::before,
-.edu-unimelb::before {
-  background-image: url('unimelb-crest.png');
-}
-
-.edu-card > * {
-  position: relative;
   z-index: 1;
+  transition: border-color 0.3s, background 0.3s;
+  background: rgba(18, 18, 18, 0.85);
 }
 
 .edu-card:hover {
   border-color: var(--accent-dim);
-  background: var(--bg-card);
+  background: rgba(24, 24, 24, 0.9);
 }
 
 .edu-badge {
