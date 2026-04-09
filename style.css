@@ -400,17 +400,18 @@ img { max-width: 100%; display: block; }
 
 .about-education {
   position: relative;
+  overflow: hidden;
 }
 
 .about-education::before {
   content: '';
   position: absolute;
-  top: 50%;
+  top: -30%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 380px;
-  height: 420px;
-  background: url('oxford-crest.png') center / contain no-repeat;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 660px;
+  background: url('oxford-crest.png') top center / contain no-repeat;
   opacity: 0.04;
   pointer-events: none;
   z-index: 0;
