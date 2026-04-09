@@ -406,6 +406,37 @@ img { max-width: 100%; display: block; }
   position: relative;
   transition: border-color 0.3s, background 0.3s;
   background: var(--bg-elevated);
+  overflow: hidden;
+}
+
+.edu-card::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  bottom: -8px;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+  filter: brightness(2);
+}
+
+.edu-oxford::before {
+  background-image: url('oxford-crest.png');
+}
+
+.edu-mbs::before,
+.edu-unimelb::before {
+  background-image: url('unimelb-crest.png');
+}
+
+.edu-card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .edu-card:hover {
